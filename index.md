@@ -4,7 +4,7 @@ layout: default
 
 Good day! Here are a few ramblings from our merry band of explorers! Follow along while we discover the secrets of Saltmarsh!
 
-# Latest entries
+# The story so far
 
 ---
 
