@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Good day! Here are a few ramblings from our merry band of explorers! Follow along while we discover the secrets of Salt Marsh!
+Good day! Here are a few ramblings from our merry band of explorers! Follow along while we discover the secrets of Saltmarsh!
 
 # Latest entries
 

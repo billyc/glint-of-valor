@@ -1,8 +1,8 @@
 ---
-title: Taking a quick break in the House on Haunted Hill
+title: A quick break in the house on "Haunted Hill"
 author: Frobozz Thizzlewisp
 layout: post
-thumbnail: images/first-post.png
+thumbnail: images/haunted-hallway.png
 ---
 
 Now that the hordes of nasty little spiders and those biting, blood-sucking stirges are behind us, it's time to take a rest and record the day's work thus far...
