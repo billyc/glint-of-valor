@@ -8,6 +8,8 @@ $colorBodyText: #c9c3d3;
 $myBackground: #103336;
 $myHover: #ffffff;
 
+$titleFont: Acme, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 $blue: #d1e984;
 $yellow: #5de77e;
 
@@ -22,7 +24,7 @@ $white: #fff;
 // Font stacks
 $helvetica: Helvetica, Arial, serif;
 $helveticaNeue: Lora, "Helvetica Neue", Helvetica, Arial, serif;
-$raleway: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$raleway: $titleFont;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
