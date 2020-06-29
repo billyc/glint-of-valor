@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $darkerGray;
+  background: $myBackground;
   font: 18px/1.5 $helveticaNeue;
   color: $lightGray;
 }
@@ -258,7 +258,9 @@ nav {
       color: $blue;
     }
   }
-  a:hover { color: $myHover; }
+  a:hover {
+    color: $myHover;
+  }
 }
 
 //
@@ -300,12 +302,12 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
-      @include mobile {
-        display: block;
-        text-align: right;
-        margin-top: -1rem;
-      }
+    @include mobile {
+      display: block;
+      text-align: right;
+      margin-top: -1rem;
     }
+  }
 
   .timestamp {
     text-transform: uppercase;
@@ -365,7 +367,7 @@ article img {
 }
 
 .thumbnail img :hover {
-    border: 1px solid $yellow;
+  border: 1px solid $yellow;
 }
 
 .post-title {
@@ -375,7 +377,6 @@ article img {
   @include mobile {
     margin-top: 0.25rem;
   }
-
 }
 
 .teaser {
