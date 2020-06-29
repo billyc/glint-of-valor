@@ -1,14 +1,19 @@
 ---
-layout: page
-title: About this blog
-permalink: /about/
+layout: default
+title: About us
 ---
 
-This is a simple fan site for our ragtag team of adventurers.
+# About your adventurers
 
-<br/>
-<br/>
-<br/>
-<br/>
+We come from far and wide, but we've all found our way to Saltmarsh. Now we travel together in search of answers... and gold!
 
-<span style="font-size:0.8rem; text-align: center;"> _"Well Johnny, when someone cares very much about their opinions, they start a blog."_ </span>
+{% for character in site.data.characters %}
+
+### {{ character.name }}
+
+**Race:** {{ character.race }}
+**Class:** {{ character.class }}
+
+{{ character.story}}
+
+{% endfor %}

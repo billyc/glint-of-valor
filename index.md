@@ -12,6 +12,8 @@ Good day! Here are a few ramblings from our merry band of explorers! Follow alon
 
 {% for post in site.posts %}
 
+{% capture when %}{{ post.date | date: '%B %d, %Y'}}{% endcapture %}
+
   <div class="post">
 
     <div class="teaser">
@@ -33,13 +35,9 @@ Good day! Here are a few ramblings from our merry band of explorers! Follow alon
     <div class="index-blurb">
       <div class="entry">
         <a class="excerpt" href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.excerpt }}
+          {{ post.summary }}
         </a>
-      </div>
-      <div>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"
-          >More&hellip;</a
-        >
+        <p class="read-more">{{ post.author }} &raquo;&raquo; {{ when }} </p>
       </div>
     </div>
 

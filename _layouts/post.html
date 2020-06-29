@@ -3,15 +3,21 @@ layout: default
 ---
 
 <article class="post">
-
   <h1>{{ page.title }}</h1>
 
   <div class="date">{{ page.date | date: "%e %B %Y" }}</div>
 
   <div class="entry">
+    {{ page.summary }}
+
+    <img
+      src="{{ site.url}}/{{ page.thumbnail }}"
+      title="{{page.title}}"
+      alt="{{page.title}}"
+    />
+
     {{ content }}
   </div>
 
   <!-- {% include comment-utterances.html %} -->
-
 </article>
