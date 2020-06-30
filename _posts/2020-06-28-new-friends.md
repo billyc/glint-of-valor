@@ -48,4 +48,6 @@ This strange little sailor doll that I found by the sacks (full of junk)-- with 
 
 No ghosts so far, that's for sure.
 
-And with that I take a small rest now.
+One character did _turn into a ghost_ however -- in the middle of all these attic shenanigans, our new friend Ned seemed just disappear. We checked our belongings afterwards and he didn't seem to have stolen anything. But that just makes me more certain that this is not the last we've seen of Ned.
+
+And with that, I'll take a small rest now.
