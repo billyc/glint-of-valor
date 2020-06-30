@@ -1,8 +1,8 @@
 ---
+layout: post
 title: New friends... and enemies
 author: Frobozz Thizzlewisp
 thumbnail: images/haunted-hallway.png
-layout: post
 summary: "Now that the hordes of creepy little spiders and those biting, blood-sucking stirges have been dispatched, it's time to take a rest and record the day's work thus far..."
 ---
 

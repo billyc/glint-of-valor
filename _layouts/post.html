@@ -5,7 +5,8 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="date">{{ page.date | date: "%e %B %Y" }}</div>
+  {% capture when %}{{ page.date | date: '%B %d, %Y'}}{% endcapture %}
+  <div class="date">{{ page.author }} &raquo; {{ when }}</div>
 
   <div class="entry">
     <img
