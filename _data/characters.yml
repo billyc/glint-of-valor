@@ -3,7 +3,17 @@
   race: Gnome
   story: Easily distracted by rumors of tantalizing information. Boisterous and excitable.
 
+- name: Sayeda Baleet ("Sadie")
+  class: Ranger
+  race: Human
+  story: Raised in Saltmarsh but with esoteric knowledge from beyond the borders.
+
+- name: Erflsd Blrucwog
+  class: Fighter
+  race: Dwarf
+  story: Tough as nails and focused on finishing the job... whatever the job is.
+
 - name: Dalmann Schupschank
   class: Cleric
   race: Human
-  story: Recently out of the monastery. Not very wordly just yet... you might even say naïve.
+  story: Recently out of the high monastery. Not very worldly just yet... you might even say naïve.
