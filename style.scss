@@ -22,6 +22,9 @@ body {
   background: $myBackground;
   font: 20px/1.5 $helveticaNeue;
   color: $colorBodyText;
+  @include mobile {
+    font: 18px/1.5 $helveticaNeue;
+  }
 }
 
 .container {
@@ -112,6 +115,11 @@ ol ol {
 ul ul,
 ol ul {
   list-style-type: circle;
+}
+
+li {
+  line-height: 24px;
+  margin-bottom: 10px;
 }
 
 em,
